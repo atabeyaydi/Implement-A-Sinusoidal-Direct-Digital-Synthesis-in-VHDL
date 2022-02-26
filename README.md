@@ -62,7 +62,7 @@ For example, using more than a DDS with different phase offset you can implement
 There is represented the simulation of two DDS generating a sinusoidal wave of 1 MHz. The system clock is 100 MHz so the sine wave contains 100 sample per period. It can be observed from the very smooth wave in the simulation. The mutual phase shift is 180°.
 
 ### Conclusion
-We addressed the VHDL realization of a sinusoidal DDS. The VHDL code is fully synthesizable on FPGA and ASIC. By the way, using the approach of table computation using initialization function you must verify the correct implementation of the LUT on silicon.
+We addressed the VHDL realization of a sinusoidal DDS. The VHDL code is fully synthesizable on FPGA and ASIC. By the way, using the approach of table computation using initialization function we must verify the correct implementation of the LUT on silicon.
 
 Reference:
 1. “A Technical Tutorial on Digital Signal Synthesis” Analog Devices
